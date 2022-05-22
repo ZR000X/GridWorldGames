@@ -66,7 +66,7 @@ class GridWorld:
 
 class GetOutGame(GridWorld):
     """
-    Implements the example found pn pg9,10,... of https://www.davidsilver.uk/wp-content/uploads/2020/03/DP.pdf    
+    Implements the example found on pg9,10,... of https://www.davidsilver.uk/wp-content/uploads/2020/03/DP.pdf    
     """
     def __init__(self, xdim, ydim, terminals, state=None):
         init_state = state is None
